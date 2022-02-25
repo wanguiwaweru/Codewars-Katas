@@ -8,8 +8,3 @@ def solution(A):
     for k,v in hashmap.items():
         if v % 2 !=0:
             return k
- def oddArr(A):
-    newArr =  set()
-    for i in A:
-        newArr.add(i) if i not in newArr else newArr.remove(i)
-    return list(newArr)
